@@ -10,6 +10,7 @@ app.use((req, res, next) => {
     next();
 });
 
+
 app.use(express.static('static'));
 app.use(express.urlencoded());
 app.use(express.json());
